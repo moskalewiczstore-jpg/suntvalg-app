@@ -456,6 +456,97 @@ const sv = {
   }
 };
 
+// Lithuanian
+const lt = {
+  translation: {
+    nav: {
+      features: "Funkcijos",
+      howItWorks: "Kaip tai veikia",
+      stories: "Istorijos",
+      pricing: "Kainos",
+      download: "Prisijungti prie laukiančiųjų sąrašo"
+    },
+    hero: {
+      badge: "✨ Išmaniausias maisto priedas Norvegijoje",
+      title_start: "Sveikesni pasirinkimai",
+      title_end: "tapo paprasti",
+      subtitle: "Skenuokite maisto produktus ir supraskite, ką valgote. Gaukite sveikatos įvertinimą ir sužinokite, ką reiškia ingredientai. Jūsų asmeninis vadovas geresnei mitybai.",
+      cta_primary: "Prisijungti prie laukiančiųjų sąrašo",
+      cta_secondary: "Sužinoti daugiau",
+      users: "Naudoja daugiau nei 10 000 norvegų",
+      coming_soon: "Netrukus App Store ir Google Play"
+    },
+    features: {
+      title: "Viskas, ko reikia sveikesniam gyvenimui",
+      subtitle: "Nuo planavimo iki apsipirkimo ir gaminimo - SuntValg su jumis visą kelią.",
+      scan: { title: "Skenuokite produktus", desc: "Skenuokite brūkšninį kodą ir iš karto gaukite sveikatos įvertinimą nuo 0 iki 100." },
+      ingredients: { title: "Supraskite ingredientus", desc: "AI analizuoja ingredientus ir paaiškina, kas yra gerai ir ko vengti." },
+      alternatives: { title: "Palyginkite produktus", desc: "Žiūrėkite sveikatos įvertinimus ir palyginkite produktus, kad rastumėte geriausią pasirinkimą." },
+      mealplan: { title: "Planuokite valgiaraštį", desc: "Receptai pritaikyti jūsų dietai, pageidavimams ir biudžetui." },
+      shoppinglist: { title: "Išmanūs pirkinių sąrašai", desc: "Kategorizuoja produktus ir padeda nieko nepamiršti." },
+      ai: { title: "Kalbėkite su SunnAI", desc: "Jūsų asmeninis AI asistentas, atsakantis į visus klausimus apie maistą ir sveikatą." },
+      share: { title: "Dalinkitės receptais", desc: "Siųskite receptus šeimai ir draugams vienu paspaudimu." },
+      history: { title: "Sekite istoriją", desc: "Žiūrėkite, ką valgėte, kas jums patinka ir ką galite pagerinti." }
+    },
+    howItWorks: {
+      title: "Kaip tai veikia",
+      subtitle: "Trys paprasti žingsniai sveikesnei kasdienybei",
+      step1: { title: "Skenuokite", desc: "Naudokite telefono kamerą brūkšninio kodo skenavimui parduotuvėje ar namuose." },
+      step2: { title: "Supraskite", desc: "Gaukite paprastą paaiškinimą, ką produktas turi ir kiek jis iš tikrųjų sveikas." },
+      step3: { title: "Rinkitės sveikiau", desc: "Iš karto pamatykite geresnius variantus ir priimkite informuotus sprendimus savo sveikatai." }
+    },
+    stories: {
+      title: "Mūsų naudotojų istorijos",
+      subtitle: "Pažiūrėkite, kaip SuntValg keičia paprastų žmonių gyvenimus",
+      ingrid: { quote: "Mano sūnus parodė man šią programėlę. Dabar su vienu paspaudimu dalinuosi kotletų receptais su savo anūke Oda. Nuostabu, kad mano receptai gyvuoja toliau!", role: "Močiutė" },
+      magnus: { quote: "Sutaupiau 400-500 kr per mėnesį naudodamas pirkinių sąrašus ir geriau planuodamas. SunnAI padeda man panaudoti tai, kas jau yra šaldytuve.", role: "Jaunas tėtis" },
+      kari: { quote: "Mano vaikai turi alergijų, ir anksčiau valandų valandas skaičiau etiketes. Dabar tiesiog skenuoju, ir programėlė mane įspėja apie alergenus. Apsipirkimas dabar trunka 40 minučių vietoj 2 valandų.", role: "Dviejų vaikų mama" },
+      einar: { quote: "Po infarkto turiu saugotis druskos ir riebalų. SuntValg veikia kaip dietologas kišenėje ir suteikia man ramybę apsiperkant.", role: "Pensininkas" }
+    },
+    pricing: {
+      title: "Pasirinkite planą, kuris jums tinka",
+      subtitle: "Gaukite pilną prieigą prie SuntValg Premium",
+      monthly_plan: "Mėnesio planas",
+      monthly_price: "79 NOK",
+      monthly_subtext: "per mėnesį",
+      monthly_cta: "Pirkti mėnesinį",
+      annual_plan: "Metinis planas",
+      annual_price: "759 NOK",
+      annual_subtext: "20% pigiau",
+      annual_badge: "Geras pasiūlymas - 20% pigiau",
+      annual_cta: "Pirkti metinį",
+      features: {
+        unlimited_scans: "Neriboti skenavimai ir istorija",
+        ai_assistant: "Pilna prieiga prie SunnAI asistento",
+        health_alternatives: "Sveikesni variantai ir dietos filtrai",
+        smart_planning: "Neriboti receptai ir pirkinių sąrašai"
+      }
+    },
+    faq: {
+      title: "Dažniausiai užduodami klausimai",
+      subtitle: "Turite klausimų? Mes turime atsakymus.",
+      q1: "Ar SuntValg yra nemokamas?",
+      a1: "Taip, turime nemokamą versiją, leidžiančią skenuoti produktus ir matyti sveikatos įvertinimą. Premium versija suteikia prieigą prie neribotų skenavimų, valgiaraščio planavimo ir SunnAI.",
+      q2: "Kaip veikia sveikatos balas?",
+      a2: "Naudojame moksliniu pagrindu sukurtą algoritmą, kuris įvertina maistinę vertę (cukrų, druską, riebalus, baltymus, skaidulas) ir priedus, kad duotų balą nuo 0 iki 100.",
+      q3: "Ar galiu naudoti programėlę su alergijomis?",
+      a3: "Absoliučiai! Galite įvesti savo alergijas ir pageidavimus profilyje, ir programėlė jus įspės, jei produktas turi ką nors, ko netoleruojate.",
+      q4: "Ar programėlė yra kitomis kalbomis?",
+      a4: "Taip, SuntValg palaiko norvegų, švedų, danų, anglų, lenkų, rusų ir lietuvių kalbas."
+    },
+    waitlist: {
+      title: "Būkite pirmi sužinoti!",
+      subtitle: "Prisijunkite prie laukiančiųjų sąrašo ir gaukite pranešimą apie paleidimą.",
+      email_placeholder: "Jūsų el. pašto adresas",
+      button: "Pranešti apie paleidimą",
+      footer_text: "SuntValg - Sveikesni pasirinkimai tapo paprasti"
+    },
+    footer: {
+      follow_us: "Sekite mus naujienom ir sveikatos patarimams!"
+    }
+  }
+};
+
 // Danish
 const da = {
   translation: {
@@ -556,7 +647,8 @@ i18n
       da,
       pl,
       en,
-      ru
+      ru,
+      lt
     },
     lng: "no", // Default language
     fallbackLng: "no",

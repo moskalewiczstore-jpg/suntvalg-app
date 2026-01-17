@@ -201,7 +201,8 @@ export default function Home() {
                    currentLang === 'SV' ? '🇸🇪 SV' : 
                    currentLang === 'DA' ? '🇩🇰 DA' : 
                    currentLang === 'PL' ? '🇵🇱 PL' : 
-                   currentLang === 'EN' ? '🇬🇧 EN' : '🇷🇺 RU'}
+                   currentLang === 'EN' ? '🇬🇧 EN' : 
+                   currentLang === 'LT' ? '🇱🇹 LT' : '🇷🇺 RU'}
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
@@ -211,6 +212,7 @@ export default function Home() {
                 <DropdownMenuItem onClick={() => changeLanguage('pl')}>🇵🇱 Polski</DropdownMenuItem>
                 <DropdownMenuItem onClick={() => changeLanguage('en')}>🇬🇧 English</DropdownMenuItem>
                 <DropdownMenuItem onClick={() => changeLanguage('ru')}>🇷🇺 Русский</DropdownMenuItem>
+                <DropdownMenuItem onClick={() => changeLanguage('lt')}>🇱🇹 Lietuvių</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
             <Button className="hidden sm:flex" onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}>
